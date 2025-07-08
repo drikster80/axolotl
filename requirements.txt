@@ -1,17 +1,17 @@
 --extra-index-url https://huggingface.github.io/autogptq-index/whl/cu118/
 
 # START section of dependencies that don't install on Darwin/MacOS
-bitsandbytes==0.46.0
+bitsandbytes>=0.46.0
 triton>=3.0.0
-mamba-ssm==1.2.0.post1
+mamba-ssm>=1.2.0.post1
 xformers>=0.0.23.post1
 autoawq==0.2.7.post3
 liger-kernel==0.5.10
 # END section
 
-packaging==23.2
+packaging>=23.2
 
-huggingface_hub==0.32.2
+huggingface_hub>=0.32.2
 peft==0.15.2
 transformers==4.53.1
 tokenizers>=0.21.1
